@@ -21,3 +21,7 @@ notas.forEach(function (nota){
 let media = somaNotas / notas.length
 
 console.log(`A media das notas é ${media}`)
+
+
+
+

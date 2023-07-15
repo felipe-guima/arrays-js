@@ -1,4 +1,4 @@
-//
+// MEtodo includes
 
 const alunos = ["João","Juliana","Ana","Caio",];
 
@@ -9,9 +9,9 @@ const listaAlunosMedias = [alunos, medias];
 // medodo includes verifica se o dado está dentro do array
 function exibeNomeENota (aluno) {
     if (listaAlunosMedias[0].includes(aluno)) {
+       
         //const alunos = listaAlunosMedias[0];
         //const medias = listaAlunosMedias[1];
-
         const [alunos, medias] = listaAlunosMedias // atribui em variaveis a lista de alunos
        
         const indice = alunos.indexOf(aluno);// propriedade que mostra o indice
